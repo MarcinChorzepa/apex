@@ -1,0 +1,14 @@
+$("td[headers='KPI']").each(function(){
+   if(parseFloat($(this).text().replace(',','.'))<92.38){
+      $(this).css({"color":"red"});
+   } else {
+ $(this).css({"color":"green"});
+};
+});
+$("td[headers='KPI_CUMUL']").each(function(){
+   if(parseFloat($(this).text().replace(',','.'))<92.38){
+      $(this).css({"color":"red"});
+   } else {
+ $(this).css({"color":"green"});
+};
+});

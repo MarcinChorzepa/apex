@@ -1,0 +1,1 @@
+$(location).attr('href', 'f?p=100:10:&APP_SESSION.::NO:RIR:IRLIKE_NTT_ID:&P65_ID_NUMBER.'.replace("+","%2B"));
