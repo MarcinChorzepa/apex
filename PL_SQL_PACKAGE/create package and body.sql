@@ -7,7 +7,7 @@ end ;
 /
 /*packaga body*/
 create or replace PACKAGE BODY tmp AS
-    FUNCTION kpi_7 RETURN NUMBER IS
+ FUNCTION kpi_7 RETURN NUMBER IS
       BEGIN
       return tmp.kpi_7;
     end kpi_7;

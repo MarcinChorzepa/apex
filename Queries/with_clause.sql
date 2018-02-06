@@ -1,3 +1,5 @@
+/* użycie klauzuli with razem z funkcją analityczną*/
+
 with tmp as (select
 add_months(sysdate,-12-level) mies
   from dual
