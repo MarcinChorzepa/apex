@@ -1,1 +1,2 @@
 this.triggeringElement.dataset.id
+/*gdzie id to nazwa wartości np. link atribiute data-id="#ID#"*/
