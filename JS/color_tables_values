@@ -12,3 +12,11 @@ $("td[headers='KPI_CUMUL']").each(function(){
  $(this).css({"color":"green"});
 };
 });
+/*to zostało wstrzykniete to tableli i kolumny ID*/
+$("td[headers='ID']").each(function(){
+   if(parseFloat($(this).text().replace(',','.'))<=20){
+      $(this).css({"color":"red","background-color":"black"});
+   } else {
+ $(this).css({"color":"green"});
+};
+});
