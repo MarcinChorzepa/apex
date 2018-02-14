@@ -1,0 +1,7 @@
+/*deklaracja zmiennej*/
+var savePos;
+/*przypisanie pozycji scrola*/
+savePos = $(window).scrollTop();
+
+/*nadanie pozycji ekranu z savePos*/
+$(window).scrollTop(savePos);
