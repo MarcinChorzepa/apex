@@ -7,6 +7,8 @@ CREATE SEQUENCE TB_CTT_DESCRIPTION_SEQ
 CREATE SEQUENCE TB_NTT_DESCRIPTION_LOG_SEQ
 /
 
+CREATE SEQUENCE DANE_SEQ start with 1 increment by 1;
+/
 
 CREATE TABLE DEPT
 (
@@ -96,7 +98,7 @@ CREATE TABLE DANE
   KPI_24_7              NUMBER,
   KPI_24_7_STAR         NUMBER,
   RESPONSIBLE           VARCHAR2(100),
-  NR                    NUMBER DEFAULT aws.dane_seq.nextval
+  NR                    NUMBER DEFAULT dane_seq.nextval
 )
 /
 
